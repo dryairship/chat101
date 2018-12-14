@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="databasename">
+	<table_structure name="messages">
+		<field Field="id" Type="int(10) unsigned" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="from" Type="varchar(20)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="to" Type="varchar(20)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="message" Type="varchar(1000)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="time" Type="timestamp" Null="NO" Key="" Default="CURRENT_TIMESTAMP" Extra="" Comment="" />
+		<key Table="messages" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="29" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="messages" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="0" Create_time="1950-01-01 00:00:00" Update_time="1950-01-01 00:00:00" Collation="latin1_swedish_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="newmessages">
+		<field Field="id" Type="int(10) unsigned" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="from" Type="varchar(20)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="to" Type="varchar(20)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="count" Type="int(10) unsigned" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="newmessages" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="newmessages" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="0" Create_time="1950-01-01 00:00:00" Update_time="1950-01-01 00:00:00" Collation="latin1_swedish_ci" Create_options="" Comment="" />
+	</table_structure>
+</database>
+</mysqldump>

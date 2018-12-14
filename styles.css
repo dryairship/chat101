@@ -1,0 +1,49 @@
+#chatbox {
+   	position: fixed;
+   	width: 600px;
+   	height: 600px;
+   	top: 50%;
+   	left: 50%;
+   	transform: translate(-50%, -50%);
+   	box-shadow: 5px 5px 15px 5px #000000;
+	border: 5px solid #5A34A4;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.sent { 
+	word-wrap: break-word;
+	max-width: 400px;
+	float: right;
+	position: relative; 
+	background: #00aabb; 
+	padding: 10px 10px 10px 10px;
+	border-radius: 20px 20px 0px 20px;
+   	box-shadow: 5px 5px 5px 5px #6666aa;
+	margin-bottom: 10px;
+} 
+
+.received { 
+	word-wrap: break-word;
+	max-width: 400px;
+	float: left;
+	position: relative; 
+	background: #ccff00; 
+	padding: 10px 10px 10px 10px;
+	border-radius: 20px 20px 20px 0px;
+   	box-shadow: 5px 5px 5px 5px #66aa66;
+	margin-bottom: 10px;
+} 
+
+#messages {
+	position: relative;
+	height: 90%;
+	background: #ddddff;
+	border-radius: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	overflow-y: auto;
+}
+
+.text{
+	font-size: 16pt;
+	width:480px;
+}

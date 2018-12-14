@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A Simple Chat Application</title>
+	<link rel="stylesheet" href="styles.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	<script type="text/javascript" src="chat.js"></script>
+</head>
+<body>
+	<div id="chatbox">
+		<div id="messages">
+		<table id="messagetable" width="100%">
+		</table>
+		</div>
+		<div id="inputbox" align="center">
+			<input id="newmessage" class="text" type="text" placeholder="Enter a message" onkeyup="checkEnter()" name="text">
+			<input type="submit" name="submit" onclick="send()" value="Send">
+		</div>
+	</div>
+</body>
+</html>
